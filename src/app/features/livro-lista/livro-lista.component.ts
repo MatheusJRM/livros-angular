@@ -21,8 +21,6 @@ export class LivroListaComponent {
   ngOnInit() {
     this.editoras = this.servEditora.getEditoras();
     this.livros = this.servLivros.obterLivros();
-    console.log(this.editoras);
-    
   }
 
   excluir = (codigo: number) => {
