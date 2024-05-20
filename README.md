@@ -1,27 +1,20 @@
-# LivrosAngular
+# livros-angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+Projeto referente ao 4°(quarto) nivel: "Conhecendo Outro Framework", da instituição Estácio no curso Desenvolvimento FullStack.
 
-## Development server
+O projeto foi desenvolvido utilizando o angular/cli na versão 17 e bootstrap 5 para estilização, é a continuação de um projeto de catálogo de livros. 
+O projeto permite a inserção de novos livros na lista e a exclusão de livros já existentes, além de uma lista inicial de livros. Utiliza dados mockados para simular um banco de dados de livros e relacionamentos com editoras. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Exercitamos a organização da estrutura do angular, bem como formulários e lógicas de validação.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Listagem de Livros:** Permite visualizar a lista completa de livros.
+   
+2. **Inserir Livro:** Permite adicionar um novo livro à lista de livros.
 
-## Build
+3. **Excluir Livro:** Permite excluir um livro existente da lista.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Executar o projeto:
+1 - _npm install_
+2 - _npm start_
