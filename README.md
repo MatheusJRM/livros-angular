@@ -17,4 +17,5 @@ Exercitamos a organização da estrutura do angular, bem como formulários e ló
 
 ## Executar o projeto:
 1 - _npm install_
+
 2 - _npm start_
